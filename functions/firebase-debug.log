@@ -1,0 +1,431 @@
+[debug] [2024-06-18T11:16:22.506Z] ----------------------------------------------------------------------
+[debug] [2024-06-18T11:16:22.511Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Banele Ndlovu\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2024-06-18T11:16:22.511Z] CLI Version:   13.11.2
+[debug] [2024-06-18T11:16:22.511Z] Platform:      win32
+[debug] [2024-06-18T11:16:22.512Z] Node Version:  v20.11.1
+[debug] [2024-06-18T11:16:22.512Z] Time:          Tue Jun 18 2024 13:16:22 GMT+0200 (South Africa Standard Time)
+[debug] [2024-06-18T11:16:22.512Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-06-18T11:16:22.818Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-06-18T11:16:22.820Z] > authorizing via signed-in user (blackelephantholdingsza@gmail.com)
+[info] i  emulators: Starting emulators: functions {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions"}}
+[debug] [2024-06-18T11:16:22.851Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-06-18T11:16:22.852Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2024-06-18T11:16:22.869Z] [hub] writing locator at C:\Users\BANELE~1\AppData\Local\Temp\hub-zaio-25.json
+[debug] [2024-06-18T11:16:22.913Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-06-18T11:16:22.913Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-06-18T11:16:22.913Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, hosting, pubsub, storage, dataconnect {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, hosting, pubsub, storage, dataconnect\u001b[22m"}}
+[debug] [2024-06-18T11:16:22.918Z] defaultcredentials: writing to file C:\Users\Banele Ndlovu\AppData\Roaming\firebase\blackelephantholdingsza_gmail_com_application_default_credentials.json
+[debug] [2024-06-18T11:16:22.924Z] Setting GAC to C:\Users\Banele Ndlovu\AppData\Roaming\firebase\blackelephantholdingsza_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\Banele Ndlovu\\AppData\\Roaming\\firebase\\blackelephantholdingsza_gmail_com_application_default_credentials.json"}}
+[debug] [2024-06-18T11:16:22.925Z] > refreshing access token with scopes: []
+[debug] [2024-06-18T11:16:22.928Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-06-18T11:16:22.929Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-06-18T11:16:23.904Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2024-06-18T11:16:23.905Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-06-18T11:16:23.915Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/zaio-25/adminSdkConfig [none]
+[debug] [2024-06-18T11:16:25.145Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/zaio-25/adminSdkConfig 200
+[debug] [2024-06-18T11:16:25.145Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/zaio-25/adminSdkConfig {"projectId":"zaio-25","storageBucket":"zaio-25.appspot.com"}
+[info] i  ui: downloading ui-v1.12.1.zip... {"metadata":{"emulator":{"name":"ui"},"message":"downloading ui-v1.12.1.zip..."}}
+[debug] [2024-06-18T11:16:25.182Z] >>> [apiv2][query] GET https://storage.googleapis.com/firebase-preview-drop/emulator/ui-v1.12.1.zip 
+[debug] [2024-06-18T11:16:26.021Z] <<< [apiv2][status] GET https://storage.googleapis.com/firebase-preview-drop/emulator/ui-v1.12.1.zip 200
+[debug] [2024-06-18T11:16:26.021Z] <<< [apiv2][body] GET https://storage.googleapis.com/firebase-preview-drop/emulator/ui-v1.12.1.zip [stream]
+[debug] [2024-06-18T11:16:28.008Z] Data is 3498269
+[debug] [2024-06-18T11:16:28.009Z] [unzip] Entry: client/ (compressed_size=0 bytes, uncompressed_size=0 bytes)
+[debug] [2024-06-18T11:16:28.009Z] [unzip] Processing entry: client\
+[debug] [2024-06-18T11:16:28.009Z] [unzip] mkdir: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\client\
+[debug] [2024-06-18T11:16:28.010Z] [unzip] Entry: client/favicon.ico (compressed_size=2933 bytes, uncompressed_size=13294 bytes)
+[debug] [2024-06-18T11:16:28.011Z] [unzip] Processing entry: client\favicon.ico
+[debug] [2024-06-18T11:16:28.011Z] [unzip] else mkdir: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\client
+[debug] [2024-06-18T11:16:28.011Z] [unzip] deflating: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\client\favicon.ico
+[debug] [2024-06-18T11:16:28.021Z] [unzip] Entry: client/mstile-150x150.png (compressed_size=2034 bytes, uncompressed_size=2034 bytes)
+[debug] [2024-06-18T11:16:28.021Z] [unzip] Processing entry: client\mstile-150x150.png
+[debug] [2024-06-18T11:16:28.022Z] [unzip] else mkdir: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\client
+[debug] [2024-06-18T11:16:28.022Z] [unzip] Writing file: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\client\mstile-150x150.png
+[debug] [2024-06-18T11:16:28.024Z] [unzip] Entry: client/favicon-16x16.png (compressed_size=293 bytes, uncompressed_size=293 bytes)
+[debug] [2024-06-18T11:16:28.024Z] [unzip] Processing entry: client\favicon-16x16.png
+[debug] [2024-06-18T11:16:28.024Z] [unzip] else mkdir: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\client
+[debug] [2024-06-18T11:16:28.025Z] [unzip] Writing file: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\client\favicon-16x16.png
+[debug] [2024-06-18T11:16:28.026Z] [unzip] Entry: client/favicon-32x32.png (compressed_size=475 bytes, uncompressed_size=475 bytes)
+[debug] [2024-06-18T11:16:28.026Z] [unzip] Processing entry: client\favicon-32x32.png
+[debug] [2024-06-18T11:16:28.026Z] [unzip] else mkdir: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\client
+[debug] [2024-06-18T11:16:28.027Z] [unzip] Writing file: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\client\favicon-32x32.png
+[debug] [2024-06-18T11:16:28.029Z] [unzip] Entry: client/manifest.json (compressed_size=245 bytes, uncompressed_size=551 bytes)
+[debug] [2024-06-18T11:16:28.029Z] [unzip] Processing entry: client\manifest.json
+[debug] [2024-06-18T11:16:28.029Z] [unzip] else mkdir: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\client
+[debug] [2024-06-18T11:16:28.029Z] [unzip] deflating: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\client\manifest.json
+[debug] [2024-06-18T11:16:28.031Z] [unzip] Entry: client/index.html (compressed_size=1365 bytes, uncompressed_size=3071 bytes)
+[debug] [2024-06-18T11:16:28.032Z] [unzip] Processing entry: client\index.html
+[debug] [2024-06-18T11:16:28.032Z] [unzip] else mkdir: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\client
+[debug] [2024-06-18T11:16:28.032Z] [unzip] deflating: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\client\index.html
+[debug] [2024-06-18T11:16:28.034Z] [unzip] Entry: client/robots.txt (compressed_size=26 bytes, uncompressed_size=26 bytes)
+[debug] [2024-06-18T11:16:28.034Z] [unzip] Processing entry: client\robots.txt
+[debug] [2024-06-18T11:16:28.034Z] [unzip] else mkdir: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\client
+[debug] [2024-06-18T11:16:28.035Z] [unzip] Writing file: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\client\robots.txt
+[debug] [2024-06-18T11:16:28.037Z] [unzip] Entry: client/android-chrome-512x512.png (compressed_size=5369 bytes, uncompressed_size=5411 bytes)
+[debug] [2024-06-18T11:16:28.037Z] [unzip] Processing entry: client\android-chrome-512x512.png
+[debug] [2024-06-18T11:16:28.037Z] [unzip] else mkdir: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\client
+[debug] [2024-06-18T11:16:28.037Z] [unzip] deflating: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\client\android-chrome-512x512.png
+[debug] [2024-06-18T11:16:28.039Z] [unzip] Entry: client/assets/ (compressed_size=0 bytes, uncompressed_size=0 bytes)
+[debug] [2024-06-18T11:16:28.039Z] [unzip] Processing entry: client\assets\
+[debug] [2024-06-18T11:16:28.039Z] [unzip] mkdir: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\client\assets\
+[debug] [2024-06-18T11:16:28.040Z] [unzip] Entry: client/assets/img/ (compressed_size=0 bytes, uncompressed_size=0 bytes)
+[debug] [2024-06-18T11:16:28.040Z] [unzip] Processing entry: client\assets\img\
+[debug] [2024-06-18T11:16:28.040Z] [unzip] mkdir: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\client\assets\img\
+[debug] [2024-06-18T11:16:28.041Z] [unzip] Entry: client/assets/img/database.png (compressed_size=29449 bytes, uncompressed_size=29988 bytes)
+[debug] [2024-06-18T11:16:28.041Z] [unzip] Processing entry: client\assets\img\database.png
+[debug] [2024-06-18T11:16:28.041Z] [unzip] else mkdir: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\client\assets\img
+[debug] [2024-06-18T11:16:28.042Z] [unzip] deflating: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\client\assets\img\database.png
+[debug] [2024-06-18T11:16:28.044Z] [unzip] Entry: client/assets/provider-icons/ (compressed_size=0 bytes, uncompressed_size=0 bytes)
+[debug] [2024-06-18T11:16:28.044Z] [unzip] Processing entry: client\assets\provider-icons\
+[debug] [2024-06-18T11:16:28.044Z] [unzip] mkdir: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\client\assets\provider-icons\
+[debug] [2024-06-18T11:16:28.045Z] [unzip] Entry: client/assets/provider-icons/auth_service_play_games.svg (compressed_size=565 bytes, uncompressed_size=1173 bytes)
+[debug] [2024-06-18T11:16:28.045Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_play_games.svg
+[debug] [2024-06-18T11:16:28.045Z] [unzip] else mkdir: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\client\assets\provider-icons
+[debug] [2024-06-18T11:16:28.045Z] [unzip] deflating: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\client\assets\provider-icons\auth_service_play_games.svg
+[debug] [2024-06-18T11:16:28.047Z] [unzip] Entry: client/assets/provider-icons/auth_service_game_center.svg (compressed_size=991 bytes, uncompressed_size=3921 bytes)
+[debug] [2024-06-18T11:16:28.048Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_game_center.svg
+[debug] [2024-06-18T11:16:28.048Z] [unzip] else mkdir: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\client\assets\provider-icons
+[debug] [2024-06-18T11:16:28.049Z] [unzip] deflating: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\client\assets\provider-icons\auth_service_game_center.svg
+[debug] [2024-06-18T11:16:28.051Z] [unzip] Entry: client/assets/provider-icons/auth_service_google.svg (compressed_size=409 bytes, uncompressed_size=720 bytes)
+[debug] [2024-06-18T11:16:28.051Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_google.svg
+[debug] [2024-06-18T11:16:28.051Z] [unzip] else mkdir: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\client\assets\provider-icons
+[debug] [2024-06-18T11:16:28.051Z] [unzip] deflating: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\client\assets\provider-icons\auth_service_google.svg
+[debug] [2024-06-18T11:16:28.054Z] [unzip] Entry: client/assets/provider-icons/auth_service_yahoo.svg (compressed_size=577 bytes, uncompressed_size=1182 bytes)
+[debug] [2024-06-18T11:16:28.054Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_yahoo.svg
+[debug] [2024-06-18T11:16:28.054Z] [unzip] else mkdir: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\client\assets\provider-icons
+[debug] [2024-06-18T11:16:28.055Z] [unzip] deflating: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\client\assets\provider-icons\auth_service_yahoo.svg
+[debug] [2024-06-18T11:16:28.066Z] [unzip] Entry: client/assets/provider-icons/auth_service_email.svg (compressed_size=228 bytes, uncompressed_size=326 bytes)
+[debug] [2024-06-18T11:16:28.066Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_email.svg
+[debug] [2024-06-18T11:16:28.066Z] [unzip] else mkdir: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\client\assets\provider-icons
+[debug] [2024-06-18T11:16:28.069Z] [unzip] deflating: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\client\assets\provider-icons\auth_service_email.svg
+[debug] [2024-06-18T11:16:28.073Z] [unzip] Entry: client/assets/provider-icons/auth_service_saml.svg (compressed_size=575 bytes, uncompressed_size=1226 bytes)
+[debug] [2024-06-18T11:16:28.073Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_saml.svg
+[debug] [2024-06-18T11:16:28.074Z] [unzip] else mkdir: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\client\assets\provider-icons
+[debug] [2024-06-18T11:16:28.074Z] [unzip] deflating: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\client\assets\provider-icons\auth_service_saml.svg
+[debug] [2024-06-18T11:16:28.076Z] [unzip] Entry: client/assets/provider-icons/auth_service_oidc.svg (compressed_size=414 bytes, uncompressed_size=858 bytes)
+[debug] [2024-06-18T11:16:28.076Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_oidc.svg
+[debug] [2024-06-18T11:16:28.077Z] [unzip] else mkdir: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\client\assets\provider-icons
+[debug] [2024-06-18T11:16:28.077Z] [unzip] deflating: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\client\assets\provider-icons\auth_service_oidc.svg
+[debug] [2024-06-18T11:16:28.079Z] [unzip] Entry: client/assets/provider-icons/auth_service_facebook.svg (compressed_size=289 bytes, uncompressed_size=457 bytes)
+[debug] [2024-06-18T11:16:28.079Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_facebook.svg
+[debug] [2024-06-18T11:16:28.080Z] [unzip] else mkdir: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\client\assets\provider-icons
+[debug] [2024-06-18T11:16:28.080Z] [unzip] deflating: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\client\assets\provider-icons\auth_service_facebook.svg
+[debug] [2024-06-18T11:16:28.082Z] [unzip] Entry: client/assets/provider-icons/auth_service_github.svg (compressed_size=466 bytes, uncompressed_size=838 bytes)
+[debug] [2024-06-18T11:16:28.082Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_github.svg
+[debug] [2024-06-18T11:16:28.083Z] [unzip] else mkdir: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\client\assets\provider-icons
+[debug] [2024-06-18T11:16:28.083Z] [unzip] deflating: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\client\assets\provider-icons\auth_service_github.svg
+[debug] [2024-06-18T11:16:28.085Z] [unzip] Entry: client/assets/provider-icons/auth_service_phone.svg (compressed_size=261 bytes, uncompressed_size=414 bytes)
+[debug] [2024-06-18T11:16:28.085Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_phone.svg
+[debug] [2024-06-18T11:16:28.085Z] [unzip] else mkdir: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\client\assets\provider-icons
+[debug] [2024-06-18T11:16:28.085Z] [unzip] deflating: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\client\assets\provider-icons\auth_service_phone.svg
+[debug] [2024-06-18T11:16:28.088Z] [unzip] Entry: client/assets/provider-icons/auth_service_apple.svg (compressed_size=230 bytes, uncompressed_size=334 bytes)
+[debug] [2024-06-18T11:16:28.088Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_apple.svg
+[debug] [2024-06-18T11:16:28.088Z] [unzip] else mkdir: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\client\assets\provider-icons
+[debug] [2024-06-18T11:16:28.089Z] [unzip] deflating: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\client\assets\provider-icons\auth_service_apple.svg
+[debug] [2024-06-18T11:16:28.090Z] [unzip] Entry: client/assets/provider-icons/auth_service_twitter.svg (compressed_size=444 bytes, uncompressed_size=751 bytes)
+[debug] [2024-06-18T11:16:28.091Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_twitter.svg
+[debug] [2024-06-18T11:16:28.091Z] [unzip] else mkdir: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\client\assets\provider-icons
+[debug] [2024-06-18T11:16:28.091Z] [unzip] deflating: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\client\assets\provider-icons\auth_service_twitter.svg
+[debug] [2024-06-18T11:16:28.093Z] [unzip] Entry: client/assets/provider-icons/auth_service_mslive.svg (compressed_size=203 bytes, uncompressed_size=378 bytes)
+[debug] [2024-06-18T11:16:28.093Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_mslive.svg
+[debug] [2024-06-18T11:16:28.093Z] [unzip] else mkdir: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\client\assets\provider-icons
+[debug] [2024-06-18T11:16:28.093Z] [unzip] deflating: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\client\assets\provider-icons\auth_service_mslive.svg
+[debug] [2024-06-18T11:16:28.095Z] [unzip] Entry: client/assets/extensions/ (compressed_size=0 bytes, uncompressed_size=0 bytes)
+[debug] [2024-06-18T11:16:28.095Z] [unzip] Processing entry: client\assets\extensions\
+[debug] [2024-06-18T11:16:28.095Z] [unzip] mkdir: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\client\assets\extensions\
+[debug] [2024-06-18T11:16:28.096Z] [unzip] Entry: client/assets/extensions/default-extension.png (compressed_size=1646 bytes, uncompressed_size=1657 bytes)
+[debug] [2024-06-18T11:16:28.096Z] [unzip] Processing entry: client\assets\extensions\default-extension.png
+[debug] [2024-06-18T11:16:28.096Z] [unzip] else mkdir: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\client\assets\extensions
+[debug] [2024-06-18T11:16:28.097Z] [unzip] deflating: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\client\assets\extensions\default-extension.png
+[debug] [2024-06-18T11:16:28.099Z] [unzip] Entry: client/assets/index-Cj5I7867.css (compressed_size=35786 bytes, uncompressed_size=297937 bytes)
+[debug] [2024-06-18T11:16:28.099Z] [unzip] Processing entry: client\assets\index-Cj5I7867.css
+[debug] [2024-06-18T11:16:28.099Z] [unzip] else mkdir: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\client\assets
+[debug] [2024-06-18T11:16:28.100Z] [unzip] deflating: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\client\assets\index-Cj5I7867.css
+[debug] [2024-06-18T11:16:28.104Z] [unzip] Entry: client/assets/index-JXEx31eZ.js (compressed_size=563896 bytes, uncompressed_size=2020866 bytes)
+[debug] [2024-06-18T11:16:28.105Z] [unzip] Processing entry: client\assets\index-JXEx31eZ.js
+[debug] [2024-06-18T11:16:28.105Z] [unzip] else mkdir: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\client\assets
+[debug] [2024-06-18T11:16:28.105Z] [unzip] deflating: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\client\assets\index-JXEx31eZ.js
+[debug] [2024-06-18T11:16:28.127Z] [unzip] Entry: client/assets/index-JXEx31eZ.js.map (compressed_size=2229196 bytes, uncompressed_size=9596104 bytes)
+[debug] [2024-06-18T11:16:28.127Z] [unzip] Processing entry: client\assets\index-JXEx31eZ.js.map
+[debug] [2024-06-18T11:16:28.127Z] [unzip] else mkdir: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\client\assets
+[debug] [2024-06-18T11:16:28.127Z] [unzip] deflating: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\client\assets\index-JXEx31eZ.js.map
+[debug] [2024-06-18T11:16:28.247Z] [unzip] Entry: client/safari-pinned-tab.svg (compressed_size=1433 bytes, uncompressed_size=2611 bytes)
+[debug] [2024-06-18T11:16:28.247Z] [unzip] Processing entry: client\safari-pinned-tab.svg
+[debug] [2024-06-18T11:16:28.248Z] [unzip] else mkdir: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\client
+[debug] [2024-06-18T11:16:28.248Z] [unzip] deflating: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\client\safari-pinned-tab.svg
+[debug] [2024-06-18T11:16:28.250Z] [unzip] Entry: client/browserconfig.xml (compressed_size=491 bytes, uncompressed_size=822 bytes)
+[debug] [2024-06-18T11:16:28.250Z] [unzip] Processing entry: client\browserconfig.xml
+[debug] [2024-06-18T11:16:28.250Z] [unzip] else mkdir: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\client
+[debug] [2024-06-18T11:16:28.251Z] [unzip] deflating: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\client\browserconfig.xml
+[debug] [2024-06-18T11:16:28.252Z] [unzip] Entry: client/android-chrome-192x192.png (compressed_size=2684 bytes, uncompressed_size=2684 bytes)
+[debug] [2024-06-18T11:16:28.253Z] [unzip] Processing entry: client\android-chrome-192x192.png
+[debug] [2024-06-18T11:16:28.253Z] [unzip] else mkdir: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\client
+[debug] [2024-06-18T11:16:28.253Z] [unzip] Writing file: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\client\android-chrome-192x192.png
+[debug] [2024-06-18T11:16:28.255Z] [unzip] Entry: client/apple-touch-icon.png (compressed_size=2123 bytes, uncompressed_size=2152 bytes)
+[debug] [2024-06-18T11:16:28.255Z] [unzip] Processing entry: client\apple-touch-icon.png
+[debug] [2024-06-18T11:16:28.255Z] [unzip] else mkdir: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\client
+[debug] [2024-06-18T11:16:28.255Z] [unzip] deflating: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\client\apple-touch-icon.png
+[debug] [2024-06-18T11:16:28.257Z] [unzip] Entry: server/ (compressed_size=0 bytes, uncompressed_size=0 bytes)
+[debug] [2024-06-18T11:16:28.257Z] [unzip] Processing entry: server\
+[debug] [2024-06-18T11:16:28.257Z] [unzip] mkdir: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\server\
+[debug] [2024-06-18T11:16:28.258Z] [unzip] Entry: server/server.mjs.map (compressed_size=286219 bytes, uncompressed_size=1310517 bytes)
+[debug] [2024-06-18T11:16:28.258Z] [unzip] Processing entry: server\server.mjs.map
+[debug] [2024-06-18T11:16:28.258Z] [unzip] else mkdir: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\server
+[debug] [2024-06-18T11:16:28.258Z] [unzip] deflating: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\server\server.mjs.map
+[debug] [2024-06-18T11:16:28.270Z] [unzip] Entry: server/assets/ (compressed_size=0 bytes, uncompressed_size=0 bytes)
+[debug] [2024-06-18T11:16:28.270Z] [unzip] Processing entry: server\assets\
+[debug] [2024-06-18T11:16:28.270Z] [unzip] mkdir: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\server\assets\
+[debug] [2024-06-18T11:16:28.271Z] [unzip] Entry: server/assets/multipart-parser-n20ATYm_.mjs.map (compressed_size=4790 bytes, uncompressed_size=17920 bytes)
+[debug] [2024-06-18T11:16:28.272Z] [unzip] Processing entry: server\assets\multipart-parser-n20ATYm_.mjs.map
+[debug] [2024-06-18T11:16:28.272Z] [unzip] else mkdir: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\server\assets
+[debug] [2024-06-18T11:16:28.272Z] [unzip] deflating: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\server\assets\multipart-parser-n20ATYm_.mjs.map
+[debug] [2024-06-18T11:16:28.274Z] [unzip] Entry: server/assets/multipart-parser-n20ATYm_.mjs (compressed_size=2625 bytes, uncompressed_size=10428 bytes)
+[debug] [2024-06-18T11:16:28.274Z] [unzip] Processing entry: server\assets\multipart-parser-n20ATYm_.mjs
+[debug] [2024-06-18T11:16:28.274Z] [unzip] else mkdir: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\server\assets
+[debug] [2024-06-18T11:16:28.274Z] [unzip] deflating: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\server\assets\multipart-parser-n20ATYm_.mjs
+[debug] [2024-06-18T11:16:28.276Z] [unzip] Entry: server/server.mjs (compressed_size=311497 bytes, uncompressed_size=1147307 bytes)
+[debug] [2024-06-18T11:16:28.276Z] [unzip] Processing entry: server\server.mjs
+[debug] [2024-06-18T11:16:28.276Z] [unzip] else mkdir: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\server
+[debug] [2024-06-18T11:16:28.277Z] [unzip] deflating: C:\Users\Banele Ndlovu\.cache\firebase\emulators\ui-v1.12.1\server\server.mjs
+[debug] [2024-06-18T11:16:28.289Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2024-06-18T11:16:28.289Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2024-06-18T11:16:28.289Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\Banele Ndlovu\\.cache\\firebase\\emulators\\ui-v1.12.1\\server\\server.mjs"],"optionalArgs":[],"joinArgs":false,"shell":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\Banele Ndlovu\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.12.1\\\\server\\\\server.mjs\"],\"optionalArgs\":[],\"joinArgs\":false,\"shell\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2024-06-18T11:16:28.605Z] Web / API server started at 127.0.0.1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4000\n"}}
+[debug] [2024-06-18T11:16:28.606Z] Web / API server started at ::1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4000\n"}}
+[info] i  functions: Watching "C:\Users\Banele Ndlovu\Desktop\Software Development\Zaio\Projects\React App\amazon-clone\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\Banele Ndlovu\\Desktop\\Software Development\\Zaio\\Projects\\React App\\amazon-clone\\functions\" for Cloud Functions..."}}
+[debug] [2024-06-18T11:16:28.729Z] Validating nodejs source
+[debug] [2024-06-18T11:16:31.461Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "@stripe/stripe-js": "^4.0.0",
+    "axios": "^1.7.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "firebase-admin": "^12.1.0",
+    "firebase-functions": "^5.0.0",
+    "stripe": "^15.12.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2024-06-18T11:16:31.461Z] Building nodejs source
+[debug] [2024-06-18T11:16:31.462Z] Failed to find version of module node: reached end of search path C:\Users\Banele Ndlovu\Desktop\Software Development\Zaio\Projects\React App\amazon-clone\functions\node_modules
+[warn] !  functions: Your requested "node" version "18" doesn't match your global version "20". Using node@20 from host. 
+[debug] [2024-06-18T11:16:31.466Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-06-18T11:16:31.477Z] Found firebase-functions binary at 'C:\Users\Banele Ndlovu\Desktop\Software Development\Zaio\Projects\React App\amazon-clone\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8229
+
+[error] TypeError: functions.HttpsError.onRequest is not a function
+    at Object.<anonymous> (C:\Users\Banele Ndlovu\Desktop\Software Development\Zaio\Projects\React App\amazon-clone\functions\index.js:21:36)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at loadModule (C:\Users\Banele Ndlovu\Desktop\Software Development\Zaio\Projects\React App\amazon-clone\functions\node_modules\firebase-functions\lib\runtime\loader.js:40:16)
+    at loadStack (C:\Users\Banele Ndlovu\Desktop\Software Development\Zaio\Projects\React App\amazon-clone\functions\node_modules\firebase-functions\lib\runtime\loader.js:93:23)
+    at C:\Users\Banele Ndlovu\Desktop\Software Development\Zaio\Projects\React App\amazon-clone\functions\node_modules\firebase-functions\lib\bin\firebase-functions.js:56:56
+
+[debug] [2024-06-18T11:16:32.903Z] Got response code 400; body Failed to generate manifest from function source: TypeError: functions.HttpsError.onRequest is not a function
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error"}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4000/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ 127.0.0.1:5001 │ http://127.0.0.1:4000/functions │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2024-06-18T11:21:34.885Z] Functions emulator received unknown request at path /
+[debug] [2024-06-18T11:21:35.285Z] Functions emulator received unknown request at path /favicon.ico
+[debug] [2024-06-18T11:25:27.113Z] File C:\Users\Banele Ndlovu\Desktop\Software Development\Zaio\Projects\React App\amazon-clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\Banele Ndlovu\\Desktop\\Software Development\\Zaio\\Projects\\React App\\amazon-clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2024-06-18T11:25:28.119Z] Validating nodejs source
+[debug] [2024-06-18T11:25:30.406Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "@stripe/stripe-js": "^4.0.0",
+    "axios": "^1.7.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "firebase-admin": "^12.1.0",
+    "firebase-functions": "^5.0.0",
+    "stripe": "^15.12.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2024-06-18T11:25:30.407Z] Building nodejs source
+[debug] [2024-06-18T11:25:30.407Z] Failed to find version of module node: reached end of search path C:\Users\Banele Ndlovu\Desktop\Software Development\Zaio\Projects\React App\amazon-clone\functions\node_modules
+[warn] !  functions: Your requested "node" version "18" doesn't match your global version "20". Using node@20 from host. 
+[debug] [2024-06-18T11:25:30.410Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-06-18T11:25:30.419Z] Found firebase-functions binary at 'C:\Users\Banele Ndlovu\Desktop\Software Development\Zaio\Projects\React App\amazon-clone\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8548
+
+[error] TypeError: Cannot read properties of undefined (reading 'onRequest')
+    at Object.<anonymous> (C:\Users\Banele Ndlovu\Desktop\Software Development\Zaio\Projects\React App\amazon-clone\functions\index.js:21:36)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at loadModule (C:\Users\Banele Ndlovu\Desktop\Software Development\Zaio\Projects\React App\amazon-clone\functions\node_modules\firebase-functions\lib\runtime\loader.js:40:16)
+    at loadStack (C:\Users\Banele Ndlovu\Desktop\Software Development\Zaio\Projects\React App\amazon-clone\functions\node_modules\firebase-functions\lib\runtime\loader.js:93:23)
+    at C:\Users\Banele Ndlovu\Desktop\Software Development\Zaio\Projects\React App\amazon-clone\functions\node_modules\firebase-functions\lib\bin\firebase-functions.js:56:56
+
+[debug] [2024-06-18T11:25:31.625Z] Got response code 400; body Failed to generate manifest from function source: TypeError: Cannot read properties of undefined (reading 'onRequest')
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error"}}
+[debug] [2024-06-18T11:43:34.555Z] File C:\Users\Banele Ndlovu\Desktop\Software Development\Zaio\Projects\React App\amazon-clone\functions\package.json changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\Banele Ndlovu\\Desktop\\Software Development\\Zaio\\Projects\\React App\\amazon-clone\\functions\\package.json changed, reloading triggers"}}
+[debug] [2024-06-18T11:43:34.890Z] File C:\Users\Banele Ndlovu\Desktop\Software Development\Zaio\Projects\React App\amazon-clone\functions\package-lock.json changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\Banele Ndlovu\\Desktop\\Software Development\\Zaio\\Projects\\React App\\amazon-clone\\functions\\package-lock.json changed, reloading triggers"}}
+[debug] [2024-06-18T11:43:35.911Z] Validating nodejs source
+[debug] [2024-06-18T11:43:38.347Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "@stripe/stripe-js": "^4.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "firebase-admin": "^12.1.0",
+    "firebase-functions": "^5.0.0",
+    "stripe": "^15.12.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2024-06-18T11:43:38.347Z] Building nodejs source
+[debug] [2024-06-18T11:43:38.348Z] Failed to find version of module node: reached end of search path C:\Users\Banele Ndlovu\Desktop\Software Development\Zaio\Projects\React App\amazon-clone\functions\node_modules
+[warn] !  functions: Your requested "node" version "18" doesn't match your global version "20". Using node@20 from host. 
+[debug] [2024-06-18T11:43:38.350Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-06-18T11:43:38.358Z] Found firebase-functions binary at 'C:\Users\Banele Ndlovu\Desktop\Software Development\Zaio\Projects\React App\amazon-clone\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8741
+
+[error] TypeError: Cannot read properties of undefined (reading 'onRequest')
+    at Object.<anonymous> (C:\Users\Banele Ndlovu\Desktop\Software Development\Zaio\Projects\React App\amazon-clone\functions\index.js:21:36)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at loadModule (C:\Users\Banele Ndlovu\Desktop\Software Development\Zaio\Projects\React App\amazon-clone\functions\node_modules\firebase-functions\lib\runtime\loader.js:40:16)
+    at loadStack (C:\Users\Banele Ndlovu\Desktop\Software Development\Zaio\Projects\React App\amazon-clone\functions\node_modules\firebase-functions\lib\runtime\loader.js:93:23)
+    at C:\Users\Banele Ndlovu\Desktop\Software Development\Zaio\Projects\React App\amazon-clone\functions\node_modules\firebase-functions\lib\bin\firebase-functions.js:56:56
+
+[debug] [2024-06-18T11:43:39.786Z] Got response code 400; body Failed to generate manifest from function source: TypeError: Cannot read properties of undefined (reading 'onRequest')
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error"}}
+[debug] [2024-06-18T12:41:25.461Z] File C:\Users\Banele Ndlovu\Desktop\Software Development\Zaio\Projects\React App\amazon-clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\Banele Ndlovu\\Desktop\\Software Development\\Zaio\\Projects\\React App\\amazon-clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2024-06-18T12:41:26.479Z] Validating nodejs source
+[debug] [2024-06-18T12:41:29.440Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "@stripe/stripe-js": "^4.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "firebase-admin": "^12.1.0",
+    "firebase-functions": "^5.0.0",
+    "stripe": "^15.12.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2024-06-18T12:41:29.441Z] Building nodejs source
+[debug] [2024-06-18T12:41:29.441Z] Failed to find version of module node: reached end of search path C:\Users\Banele Ndlovu\Desktop\Software Development\Zaio\Projects\React App\amazon-clone\functions\node_modules
+[warn] !  functions: Your requested "node" version "18" doesn't match your global version "20". Using node@20 from host. 
+[debug] [2024-06-18T12:41:29.447Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-06-18T12:41:29.462Z] Found firebase-functions binary at 'C:\Users\Banele Ndlovu\Desktop\Software Development\Zaio\Projects\React App\amazon-clone\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8288
+
+[error] TypeError: Cannot read properties of undefined (reading 'onRequest')
+    at Object.<anonymous> (C:\Users\Banele Ndlovu\Desktop\Software Development\Zaio\Projects\React App\amazon-clone\functions\index.js:25:36)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at loadModule (C:\Users\Banele Ndlovu\Desktop\Software Development\Zaio\Projects\React App\amazon-clone\functions\node_modules\firebase-functions\lib\runtime\loader.js:40:16)
+    at loadStack (C:\Users\Banele Ndlovu\Desktop\Software Development\Zaio\Projects\React App\amazon-clone\functions\node_modules\firebase-functions\lib\runtime\loader.js:93:23)
+    at C:\Users\Banele Ndlovu\Desktop\Software Development\Zaio\Projects\React App\amazon-clone\functions\node_modules\firebase-functions\lib\bin\firebase-functions.js:56:56
+
+[debug] [2024-06-18T12:41:31.590Z] Got response code 400; body Failed to generate manifest from function source: TypeError: Cannot read properties of undefined (reading 'onRequest')
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error"}}
