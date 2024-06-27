@@ -38,7 +38,7 @@ const Header = () => {
               Hello {!user ? "Guest" : user.email}
             </span>
             <span className="header_optionTwo">
-              {!user ? "Sign Out" : "Sign In"}
+              {!user ? "Sign In" : "Sign Out"}
             </span>
           </div>
         </Link>
