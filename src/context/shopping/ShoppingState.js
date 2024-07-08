@@ -18,6 +18,13 @@ export const ShoppingState = (props) => {
     });
   };
 
+  const setUser = (user) => {
+    dispatch({
+      type: "SET_USER",
+      payload: user,
+    })
+  }
+
   const emptyBasket = () => {
     dispatch({
       type: 'EMPTY_BASKET',
@@ -28,12 +35,6 @@ export const ShoppingState = (props) => {
     dispatch({ type: "REMOVE_FROM_BASKET", payload: item})
   };
 
-  const setUser = (user) => {
-    dispatch({
-      type: 'SET_USER',
-      payload: user,
-    });
-  };
 
   return (
     <ShoppingContext.Provider
@@ -45,6 +46,7 @@ export const ShoppingState = (props) => {
         setUser,
         removeFromBasket,
         emptyBasket,
+        
       }}
     >
       {props.children}

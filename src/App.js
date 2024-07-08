@@ -14,6 +14,7 @@ import { auth } from "./firebase";
 import Checkout from "./components/Checkout";
 import Payment from "./components/Payment";
 
+
 const promise = loadStripe(
   'pk_test_51PSfHBRqnYckXkxI7gMGPnEiSW1CrQNaSWzxvflq77kR3IqcoRJmY50GcQtjbGqs3TZGaOQJ8uKAQ7zpOiiXoGfC00XAsZgipC'
 );
@@ -21,6 +22,7 @@ const promise = loadStripe(
 const App = () => {
   const shoppingContext = useContext(ShoppingContext);
   const { setUser } = shoppingContext;
+  
   useEffect(() => {
     auth.onAuthStateChanged((authUser) => {
       console.log("User is -> ", authUser);
@@ -31,7 +33,7 @@ const App = () => {
         setUser(null);
       }
     });
-  }, [setUser]);
+  }, []);
   return (
     <>
       <Header />
