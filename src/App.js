@@ -33,7 +33,7 @@ const App = () => {
         setUser(null);
       }
     });
-  }, []);
+  }, [setUser]);
   return (
     <>
       <Header />
